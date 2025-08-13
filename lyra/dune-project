@@ -1,0 +1,25 @@
+(lang dune 3.19)
+
+(name lyra)
+
+(generate_opam_files true)
+
+(source
+ (github username/reponame))
+
+(authors "Author Name <author@example.com>")
+
+(package
+ (name lyra)
+ (synopsis "TypeScript linter")
+ (description "A TypeScript linter written in OCaml")
+ (depends
+  (ocaml
+   (>= 4.08.0))
+  base
+  (str :standard))
+ (maintainers "Maintainer Name <maintainer@example.com>")
+ (license LICENSE)
+ (documentation https://url/to/documentation))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html

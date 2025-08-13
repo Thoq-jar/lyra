@@ -1,0 +1,4 @@
+(library
+ (name lyra)
+ (public_name lyra)
+ (libraries base str))

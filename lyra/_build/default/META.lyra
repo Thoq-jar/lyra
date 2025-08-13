@@ -1,0 +1,6 @@
+description = ""
+requires = "base str"
+archive(byte) = "lyra.cma"
+archive(native) = "lyra.cmxa"
+plugin(byte) = "lyra.cma"
+plugin(native) = "lyra.cmxs"

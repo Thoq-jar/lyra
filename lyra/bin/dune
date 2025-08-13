@@ -1,0 +1,4 @@
+(executable
+ (public_name lyra)
+ (name main)
+ (libraries lyra str))
