@@ -51,4 +51,3 @@ let () =
   printf "Warnings: %d\n" !warning_count;
   printf "Total issues: %d\n" (!error_count + !warning_count);
   if !error_count > 0 then exit 1
-
